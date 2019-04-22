@@ -122,7 +122,7 @@ int main(int argc, char *argv[]) {
                 memcpy(func_code + 15, &functionValue, 1);
             }
 
-            cout << "Now our function will compute " << passValue << "+" << functionValue << endl;
+            cout << "Now our function will compute " << (int) passValue << " + " << (int) functionValue << endl;
             launchFunction(passValue);
             continue;
         }
